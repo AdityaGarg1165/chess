@@ -22,7 +22,7 @@ export default function Home() {
 
   useEffect(() => {
     if (!socketRef.current) {
-      socketRef.current = io("http://localhost:5000/");
+      socketRef.current = io("https://chessserver.up.railway.app/");
 
       socketRef.current.on("disconnect", () => {});
     }
