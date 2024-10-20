@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #302e2b;
+}
+
+@media (max-width: 1055px) {
+    .plch {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 610px) {
+    .plch {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 534px) {
+    .plch {
+        font-size: 1.2rem;
+    }
+    .bt {
+        translate: -4vw;
+    }
+    .brd {
+        width: 12rem;
+        height: 12rem;
+        margin-left: 14vw;
+    }
+}
+
+@media (max-width: 438px) {
+    .plch {
+        text-wrap: wrap;
+        margin-left: 1vw;
+    }
+    .bt {
+        margin-top: 13vh;
+    }
+    .brd {
+        margin-left: 18vw;
+    }
+}

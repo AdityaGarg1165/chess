@@ -1,0 +1,25 @@
+{
+  "name": "chess",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "chess.js": "^1.0.0-beta.8",
+    "framer-motion": "^11.11.9",
+    "next": "14.2.15",
+    "react": "^18",
+    "react-dom": "^18",
+    "socket.io-client": "^4.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.11",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.6.3"
+  }
+}
